@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="#ececec">
+    <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/btnTakePicture"
+            android:textColor="@color/white"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+    <com.example.deepika.rbtlib.FontLatoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY MANAGEMENT SYSTEM"
+        android:id="@+id/textView2"
+        android:textColor="#424242"
+        android:layout_marginTop="39dp"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="CHECK OUT"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="40dp"
+
+        android:layout_centerHorizontal="true" />
+
+    <com.example.deepika.rbtlib.FontLatoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here if you want to"
+        android:id="@+id/textView3"
+        android:textColor="#424242"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:textSize="20sp"/>
+
+    <com.example.deepika.rbtlib.FontLatoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:id="@+id/textView4"
+        android:textColor="#424242"
+        android:layout_below="@+id/btnCapturePicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

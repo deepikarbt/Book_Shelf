@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginlogo"
+        android:layout_marginTop="72dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <com.example.deepika.rbtlib.FontEdittext
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="email"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:backgroundTint="@color/view_background"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:ems="10"
+        android:id="@+id/emi"
+        android:background="#E91E63"
+        android:alpha="0.45"
+        android:padding="10dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <com.example.deepika.rbtlib.FontEdittext
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColorHint="#000000"
+        android:hint="password"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/view_background"
+        android:alpha="0.45"
+        android:background="#E91E63"
+        android:layout_below="@+id/emi"
+        android:padding="10dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:id="@+id/pwd"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/emi"
+        android:layout_alignStart="@+id/emi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:background="@drawable/mybutton"
+        android:id="@+id/button3"
+        android:textColor="@color/white"
+        android:layout_below="@+id/pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+
+
+
+</RelativeLayout>
+</RelativeLayout>

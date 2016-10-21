@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Shelf</string>
+<string name="btnTakePicture">CHECK IN</string>
+<string name="btnUploadToServer">SEND</string>
+<string name="btnReceive">RECEIVE</string>
+
+</resources>

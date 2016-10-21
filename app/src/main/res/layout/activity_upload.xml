@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ececec"
+    android:orientation="vertical">
+    <!--<include
+        android:id="@+id/toolin"
+        layout="@layout/toolin" />-->
+
+<FrameLayout
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:paddingTop="20dp"
+    android:id="@+id/frameLayout2"
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/textView6"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:alpha="0.25"
+/>
+
+</FrameLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:layout_below="@+id/frameLayout2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="23dp"
+    android:id="@+id/relativeLayout">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="35dp"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mybutton"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btnUploadToServer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.example.deepika.rbtlib.FontLatoRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="BOOK CHECK-OUT"
+        android:paddingTop="20dp"
+        android:textColor="#424242"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" />
+<TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/txt_font"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
